@@ -128,6 +128,9 @@ public class DictionaryReader {
                         //System.out.printf("Were done!\n");
                         // todo: see if there is still a word in the buffer
                     }
+                    else if ( currentChar == '\r' ) {
+                        // ignore CR so CRLF (Windows) line endings work too
+                    }
                     else if ( currentChar == endOfLineChar ) {
                         stillReadingLine = false;
 

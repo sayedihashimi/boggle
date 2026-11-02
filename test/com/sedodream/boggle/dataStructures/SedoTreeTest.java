@@ -82,13 +82,13 @@ public class SedoTreeTest {
         tree.insertAfter(nodePath);
         ITreeNode<Integer> foundNode = tree.find(nodePath);
         Assert.assertNotNull(foundNode);
-        Assert.assertEquals(1, foundNode.getValue());
+        Assert.assertEquals(Integer.valueOf(1), foundNode.getValue());
 
         nodePath.add(2);
         tree.insertAfter(nodePath);
         foundNode = tree.find(nodePath);
         Assert.assertNotNull(foundNode);
-        Assert.assertEquals(2, foundNode.getValue());
+        Assert.assertEquals(Integer.valueOf(2), foundNode.getValue());
     }
     
     

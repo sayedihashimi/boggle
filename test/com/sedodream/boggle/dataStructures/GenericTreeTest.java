@@ -30,8 +30,8 @@ public class GenericTreeTest {
     @BeforeClass
     public static void setUpBeforeClass() throws Exception {
 
-        String wordFilePath = ".\\Files\\word.list";
-        String missFilePath = ".\\Files\\miss.300000.list";
+        String wordFilePath = "./files/word.list";
+        String missFilePath = "./files/miss.295000.list";
 
         BufferedReader bufferedReader = null;
         FileReader fileReader = null;

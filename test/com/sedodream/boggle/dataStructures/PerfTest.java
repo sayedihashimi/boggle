@@ -59,7 +59,7 @@ public class PerfTest {
 
         System.out.println("Reading word file");
         Date startTime = new Date();
-        File wordFile = new File(".\\Files\\word.list");
+        File wordFile = new File("./files/word.list");
 
         if ( !wordFile.exists() ) {
             String message = String.format("Cannot file file at [%s]", wordFile
