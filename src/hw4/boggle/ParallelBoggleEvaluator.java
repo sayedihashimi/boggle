@@ -9,7 +9,6 @@ import hw4.boggle.dictionary.*;
 import hw4.boggle.player.*;
 
 
-import org.junit.Test;
 
 
 public class ParallelBoggleEvaluator {
@@ -185,10 +184,6 @@ public class ParallelBoggleEvaluator {
 	}
 	
 	
-	@Test 
-	public void tester() {
-		main(new String[1]);
-	}
 	public static String[] readBoardFromFile(String filename){
 		BufferedReader reader = null;
 		try {

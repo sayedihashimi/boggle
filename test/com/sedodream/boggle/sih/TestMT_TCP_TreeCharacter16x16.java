@@ -59,7 +59,7 @@ public class TestMT_TCP_TreeCharacter16x16 extends TestBase{
         BoggleMode.DEBUG_MODE = false;
         Date startTime = new Date();
 
-        IBoard board = BuildBoardFromFile(".\\Files\\board16x16.txt");
+        IBoard board = BuildBoardFromFile("./files/board16x16.txt");
         Assert.assertNotNull(board);
         
         System.out.println("Creating player(s)");

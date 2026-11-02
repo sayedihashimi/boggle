@@ -25,8 +25,8 @@ import com.sedodream.boggle.sih.exceptions.BoardSizeException;
  * @author Sayed Ibrahim Hashimi (sayed.hashimi@gmail.com)
  */
 public class TestBoard extends TestBase {
-    // private String filename4x4=".\\Files\\board4x4.txt";
-    // private String filename5x5=".\\Files\\board5x5.txt";
+    // private String filename4x4="./files/board4x4.txt";
+    // private String filename5x5="./files/board5x5.txt";
     @Test
     public void Test4x4() throws IOException, BoardDataException,
             BoardSizeException {

@@ -58,7 +58,7 @@ public class TestMultiThreadSimplePlayer25x25 extends TestBase{
         Date startTime = new Date();
 
         //IBoard board = new Board(boardStr);
-        IBoard board = BuildBoardFromFile(".\\Files\\board32x32.txt");
+        IBoard board = BuildBoardFromFile("./files/board32x32.txt");
         Assert.assertNotNull(board);
         //Assert.assertEquals(size, board.getBoardSize());
         

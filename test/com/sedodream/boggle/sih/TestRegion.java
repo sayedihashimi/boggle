@@ -19,14 +19,13 @@ import org.junit.Test;
 import com.sedodream.boggle.sih.exceptions.BoardDataException;
 import com.sedodream.boggle.sih.exceptions.BoardSizeException;
 import com.sedodream.boggle.sih.player.PlayerUtil;
-import com.sun.corba.se.spi.orbutil.fsm.Guard.Result;
 
 /**
  * @author Sayed Ibrahim Hashimi (sayed.hashimi@gmail.com)
  */
 public class TestRegion extends TestBase {
-    private String filename4x4=".\\Files\\board4x4.txt";
-    private String filename5x5=".\\Files\\board5x5.txt";
+    private String filename4x4="./files/board4x4.txt";
+    private String filename5x5="./files/board5x5.txt";
     
     @Test
     @Ignore("Region impl changed")

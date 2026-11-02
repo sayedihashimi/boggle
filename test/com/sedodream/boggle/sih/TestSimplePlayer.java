@@ -18,7 +18,7 @@ import com.sedodream.boggle.sih.player.PlayerUtil;
 import com.sedodream.boggle.sih.player.SimplePlayer;
 
 public class TestSimplePlayer extends TestBase {
-    protected String wordsIbrahim = ".\\Files\\wordsIbrahim.txt";
+    protected String wordsIbrahim = "./files/wordsIbrahim.txt";
     
     
     private IBoard board25x25=null;
@@ -28,7 +28,7 @@ public class TestSimplePlayer extends TestBase {
     @Before
     public void ReadBoards() throws Exception{
         if(!boardsRead){
-            board25x25 = BuildBoardFromFile(".\\Files\\board25x25.txt");
+            board25x25 = BuildBoardFromFile("./files/board25x25.txt");
             wordList_Complete = BuildDictionaryFromFile(wordListComplete);
             boardsRead=true;
         }

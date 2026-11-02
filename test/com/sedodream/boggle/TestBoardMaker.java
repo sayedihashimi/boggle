@@ -20,7 +20,7 @@ public class TestBoardMaker extends TestBase {
         int size = 25;
         BoggleBoardMaker maker=BoggleBoardMaker.makeRandomBoard(size, diceFile);
         
-        String fileToSave = ".\\Files\\file.generated.";
+        String fileToSave = "./files/file.generated.";
         String actualFileName = String.format("%s%sx%s.txt", fileToSave,size,size);
         
         File theFile = new File(actualFileName);
@@ -39,7 +39,7 @@ public class TestBoardMaker extends TestBase {
         int size = 100;
         BoggleBoardMaker maker=BoggleBoardMaker.makeRandomBoard(size, diceFile);
         
-        String fileToSave = ".\\Files\\file.generated.";
+        String fileToSave = "./files/file.generated.";
         String actualFileName = String.format("%s%sx%s.txt", fileToSave,size,size);
         
         File theFile = new File(actualFileName);
@@ -61,7 +61,7 @@ public class TestBoardMaker extends TestBase {
         BoggleMode.DEBUG_MODE=false;
         BoggleBoardMaker maker=BoggleBoardMaker.makeRandomBoard(size, diceFile);
         
-        String fileToSave = ".\\Files\\file.generated.";
+        String fileToSave = "./files/file.generated.";
         String actualFileName = String.format("%s%sx%s.txt", fileToSave,size,size);
         
         File theFile = new File(actualFileName);

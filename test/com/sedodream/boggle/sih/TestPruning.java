@@ -23,7 +23,7 @@ public class TestPruning extends TestBase{
     @Test
     public void DoSimpleTest() throws Exception{
         BoggleMode.DEBUG_MODE = true;
-        PruningTreeCharacter wordList = BuildPruningDictionaryFromFile("./Files/pruningTestWords.txt");
+        PruningTreeCharacter wordList = BuildPruningDictionaryFromFile("./files/pruningTestWords.txt");
         Assert.assertNotNull(wordList);
         
         List<String>words = new ArrayList<String>();

@@ -7,7 +7,6 @@ import java.rmi.server.UID;
 import java.util.ArrayList;
 import java.util.List;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import com.sedodream.boggle.BoggleMode;
 import com.sedodream.boggle.dataStructures.ISynchronizedList;
